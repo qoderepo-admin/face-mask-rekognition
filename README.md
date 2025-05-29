@@ -35,18 +35,19 @@ python src/predict.py
 
 python src/train.py
 
-## **Dataset 📊**
+
+** ## Dataset 📊**
 Trained on:
 
 Data from https://github.com/prajnasb/observations/tree/master/experiements/data
 
-## **Dataset structure:**
+** ## Dataset structure:**
 
 data/
 ├── with_mask/
 ├── without_mask/
 
-## **Model Architecture 🧠**
+** ## Model Architecture 🧠**
 python
 model = Sequential(
     [
@@ -61,7 +62,7 @@ model = Sequential(
 )
 **Accuracy:** 96.2% on test set
 
-## **Contributing 🤝**
+** ## Contributing 🤝**
 Pull requests are welcome! For major changes, please open an issue first.
 
 

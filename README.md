@@ -18,36 +18,31 @@ A deep learning model that detects whether a person is wearing a face mask in re
 ## Installation ⚙️
 
 ### Prerequisites
-
+```bash
 git clone https://github.com/qoderepo-admin/face-mask-rekognition.git
 cd face-mask-rekognition
+Usage 🛠️
+Real-time Detection
 
-**### Usage** 🛠️
-1. Real-time Webcam Detection
-
+bash
 python src/detect.py
+Predict on Single Image
 
-2. Predict on Single Image
-
+bash
 python src/predict.py
+Train Model (Optional)
 
-3. Train Model (Optional)
-
+bash
 python src/train.py
-
-
-** ## Dataset 📊**
+Dataset 📊
 Trained on:
-
 Data from https://github.com/prajnasb/observations/tree/master/experiements/data
 
-** ## Dataset structure:**
-
+Dataset structure:
 data/
 ├── with_mask/
 ├── without_mask/
-
-** ## Model Architecture 🧠**
+Model Architecture 🧠
 python
 model = Sequential(
     [
@@ -60,9 +55,7 @@ model = Sequential(
         Dense(2, activation="softmax"),
     ]
 )
-**Accuracy:** 96.2% on test set
+Accuracy: 96.2% on test set
 
-** ## Contributing 🤝**
+Contributing 🤝
 Pull requests are welcome! For major changes, please open an issue first.
-
-

@@ -18,7 +18,7 @@ A deep learning model that detects whether a person is wearing a face mask in re
 ## Installation ⚙️
 
 ### Prerequisites
-```bash
+
 git clone https://github.com/qoderepo-admin/face-mask-rekognition.git
 cd face-mask-rekognition
 
